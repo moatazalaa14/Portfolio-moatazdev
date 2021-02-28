@@ -24,7 +24,7 @@ const ProjectCard: FunctionComponent<{ project: Iprojects }> = ({
 	}
 	return (
 		<div>
-            <div className="grid grid-cols-1 rounded-lg justify-items-center dark:bg-dark-200">
+            <div className="grid grid-cols-1 rounded-lg shadow-3xl justify-items-center dark:bg-dark-200">
 			<img src={img} alt={title} className="cursor-pointer max-h-40" onClick={openModal} />
 			<h2 className="my-2 text-center">{title}</h2>
             </div>
@@ -43,7 +43,7 @@ const ProjectCard: FunctionComponent<{ project: Iprojects }> = ({
 							</a>
 							<a
 								href={live}
-								className="flex items-center p-2 mt-2 mb-2 mr-4 bg-gray-300 rounded-md dark:bg-dark-400 hover:bg-green hover:text-white"
+								className={`flex items-center p-2 mt-2 mb-2 mr-4 bg-gray-300 rounded-md dark:bg-dark-400 hover:bg-green hover:text-white ${live===""?"pointer-events-none cursor-default":null}`}
 								target="_blank"
 							>
 								Live <AiFillProject className="ml-2" />{' '}

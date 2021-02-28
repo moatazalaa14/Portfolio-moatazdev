@@ -7,7 +7,7 @@ import { Iservice, Iexperience, Iprojects } from './type';
 export const services:Iservice[]=[
     {
         title:"Front-end development",
-        about:"",
+        about:"Nulla minim quis aliqua do proident. Dolor commodo consequat officia cupidatat adipisicing quis nisi aliqua esse esse esse minim aliquip nisi.",
         icon:RiComputerFill
     },
     {
@@ -71,39 +71,39 @@ export const projectsInfo:Iprojects[]=[
         desc:"pickly.io is a platform where we can help each other making the right decisions.",
         live:"https://pickly-frontend-dev.m3ntorship.net/",
         github:"https://github.com/m3ntorship/pickly-frontend-v1",
-        img:"/images/Screenshot_2021-02-27_20-03-16.png",
-        category:["React","Tailwind","Storybook"]
+        img:"/images/0804-06.jpg",
+                category:["React","Tailwind","Storybook"]
     },
     {
         title:"IEEE Al-Azhr",
         desc:"IEEE Al-Azhar is a website that show blogs , services , events and informations about the team",
         live:"https://www.ieee-azhar.com/",
         github:"https://github.com/IEEE-AlAzhar/Official-Website",
-        img:"/images/screencapture-ieee-azhar-2021-02-16-18_59_03-_1_.webp",
-        category:["React" , "Bootstrap" , "Css Module"]
+        img:"/images/0804-06.jpg",
+                category:["React" , "Bootstrap" , "Css Module"]
     },
     {
         title:"Reuseable Atoms",
-        desc:"IEEE Al-Azhar is a website that show blogs , services , events and informations about the team",
-        live:"https://www.ieee-azhar.com/",
-        github:"https://github.com/IEEE-AlAzhar/Official-Website",
-        img:"/images/Screenshot_2021-02-09_18-17-11.webp",
+        desc:"is a repo i created it by using react , tailwind and story book, it consists of reusabe atoms as input , button , checkboxs ,readiobox and progress and collect with them to make molecules.",
+        live:"",
+        github:"https://github.com/moatazalaa14/React-tailwind-storybook",
+        img:"/images/0804-06.jpg",
         category:["React" , "Storybook" , "Tailwind"]
     },
     {
         title:"Mobify-Ecommerce",
         desc:"IEEE Al-Azhar is a website that show blogs , services , events and informations about the team",
-        live:"https://www.ieee-azhar.com/",
-        github:"https://github.com/IEEE-AlAzhar/Official-Website",
-        img:"https://github.com/IEEE-AlAzhar/Official-Website/raw/master/src/assets/images/logo.png",
+        live:"",
+        github:"https://github.com/moatazalaa14/E-commerce-Front-end",
+        img:"/images/0804-06.jpg",
         category:["React","Css Module"]
     },
     {
         title:"My Portfolio",
         desc:"IEEE Al-Azhar is a website that show blogs , services , events and informations about the team",
         live:"https://www.ieee-azhar.com/",
-        github:"https://github.com/IEEE-AlAzhar/Official-Website",
-        img:"https://github.com/IEEE-AlAzhar/Official-Website/raw/master/src/assets/images/logo.png",
-        category:["Next.js","Typescript" ,"Tailwind"]
+        github:"https://github.com/moatazalaa14/Portfolio_",
+        img:"/images/0804-06.jpg",
+                category:["Next.js","Typescript" ,"Tailwind"]
     },
 ]
