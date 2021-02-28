@@ -18,10 +18,10 @@ function projects() {
             </div>
         <div className="relative grid grid-cols-12 gap-4 my-3">
             {
-                projectsInfo.map((project,index)=>{
+                projectsInfo.map(project =>{
                     return(
-                        <div className="col-span-12 p-2 sm:col-span-6 lg:col-span-4">
-                            <ProjectCard project={project} key={index}/>
+                        <div className="col-span-12 p-2 sm:col-span-6 lg:col-span-4" key={project.title}>
+                            <ProjectCard project={project} />
                         </div>
                     )
                 })

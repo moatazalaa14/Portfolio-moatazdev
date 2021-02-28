@@ -54,8 +54,8 @@ const ProjectCard: FunctionComponent<{ project: Iprojects }> = ({
 						<h2 className="mt-3 mb-3 text-xl font-medium md:text-2xl">{title}</h2>
 						<p className="mb-3">{desc}</p>
 						<div className="flex flex-wrap mb-2 ml-2 space-x-2 text-sm">
-							{category.map((cate, index) => (
-								<span className="px-1 py-2 bg-gray-300 rounded-sm dark:bg-dark-400" key={index}>
+							{category.map(cate => (
+								<span className="px-1 py-2 bg-gray-300 rounded-sm dark:bg-dark-400" key={cate}>
 									{cate}
 								</span>
 							))}
@@ -65,7 +65,7 @@ const ProjectCard: FunctionComponent<{ project: Iprojects }> = ({
 						onClick={closeModal}
 						className="absolute bg-gray-200 rounded-full top-3 right-3 focus:outline-none dark:bg-dark-200"
 					>
-						<MdClose size={30} />{' '}
+						<MdClose size={30} />
 					</button>
 				</div>
 			</Modal>

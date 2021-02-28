@@ -48,7 +48,7 @@ function Sidebar() {
 				<button className="w-8/12 px-5 py-2 my-2 text-white rounded-full bg-gradient-to-r from-green to-blue-400 focus:outline-none" 
                 onClick={()=>window.open('emailto:mutazalaasalah@gmail.com')}
                 >Email Me</button>
-				<button className="w-8/12 px-5 py-2 my-2 text-white rounded-full bg-gradient-to-r from-green to-blue-400 focus:outline-none" onClick={HandlingTheme}>{theme==="light"?"Dark":"Light"} Ui</button>
+				<button className="w-8/12 px-5 py-2 my-2 text-white rounded-full bg-gradient-to-r from-green to-blue-400 focus:outline-none" onClick={HandlingTheme}>{/*theme==="light"?"Dark":"Light"*/}Theme Ui</button>
 			</div>
 		</div>
 	);
