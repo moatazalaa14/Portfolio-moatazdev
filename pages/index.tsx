@@ -9,7 +9,7 @@ const index = ({services}) => {
       </p>
       <div className="flex-grow p-4 mt-5 bg-gray-400 dark:bg-dark-400" >
         <h2 className="mb-4 text-xl font-bold tracking-wide">What I Offer</h2>
-        <div className="grid items-center gap-6 lg:grid-cols-2">
+        <div className="grid items-center gap-6 lg:grid-cols-2 overflow-scroll scrollbar px-5 py-2"  style={{height:"70vh"}}>
           {
             services.map((service,index)=>{
            
