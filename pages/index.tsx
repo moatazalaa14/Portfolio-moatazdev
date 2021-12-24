@@ -1,7 +1,8 @@
 import { GetServerSideProps } from "next"
 import ServiceCard from "../components/ServiceCard"
+import { services } from "../data";
 
-const index = ({services}) => {
+const index = ({endPoint}) => {
   return (
     <div className="flex flex-col flex-grow">
       <p className="p-4 font-medium">
@@ -32,10 +33,11 @@ export default index
 
 
 export const getServerSideProps=async (context:GetServerSideProps)=>{
-  const res =await fetch("http://localhost:3000/api/services")
-  const data=await res.json()
+  // console.log(process.env.VERCEL_URL)
+  // const res =await fetch(`${process.env.VERCEL_URL}/api/services`)
+  // const data=await res.json()
   return{
     props:{
-      services:data.services
+      endPoint:process.env.VERCEL_URL
   }
 }}
