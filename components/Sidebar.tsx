@@ -44,7 +44,7 @@ function Sidebar() {
 					</span>Egypt,Cairo
 				</p>
 				<a href="email:mutazalaasalah@gmail.com" className="inline-block my-2">mutazalaasalah@gmail.com</a><br/>
-				<a href="tel:01128961278" className="inline-block my-2">01128961278</a>
+				<a href="tel:01128961278" className="inline-block my-2">+201128961278</a>
 			</div>
 			<div>
 				<button className="w-8/12 px-5 py-2 my-2 text-white rounded-full bg-gradient-to-r from-green to-blue-400 focus:outline-none" 

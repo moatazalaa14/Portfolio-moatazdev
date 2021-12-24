@@ -15,7 +15,7 @@ function projects() {
 	}
     
     return (
-        <div className="px-5 py-2 " style={{height:"70vh"}}>
+        <div className="px-5 py-2 " >
             <div className="p-4 " >
                 <div>
                     <button className="pr-2 focus:outline-none hover:text-green" onClick={()=>HandlingProjects("All")}>All</button>
