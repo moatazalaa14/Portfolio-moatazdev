@@ -3,7 +3,7 @@ import { motion } from 'framer-motion';
 
 function resume() {
     return (
-        <div className="grid grid-cols-1 gap-6 p-4 lg:grid-cols-2 overflow-scroll scrollbar">
+        <div className="grid grid-cols-1 gap-6 p-4 lg:grid-cols-2 ">
             {
                 experiences.map(experience=>{
                     

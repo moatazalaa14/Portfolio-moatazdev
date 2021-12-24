@@ -40,6 +40,11 @@ export const services:Iservice[]=[
 
 export const experiences:Iexperience[]=[
     {
+        title:"Learning design Specialist",
+        organization:"Variiance",
+        responsiblities:["Set learning Objectives for the course" , "Review the script With SME and make sure the script met the learning objectives","Create Interactive as Simulation and games to improve the learning process","Courses Samples : SQL,Cloud computing , Database , Powershell and Web fundamentals"],
+    },
+    {
         title:"Front-end developer",
         organization:"M3ntorship",
         responsiblities:["Worked with team in one project called pickly that is a platform where we can help each other making the right decisions. Built with React Hooks , Tailwind and storybook for front-end"],
@@ -92,7 +97,7 @@ export const projectsInfo:Iprojects[]=[
     },
     {
         title:"Mobify-Ecommerce",
-        desc:"IEEE Al-Azhar is a website that show blogs , services , events and informations about the team",
+        desc:"Mobify-Ecommerce is a website take a fake data from Json file and show the products on screen and allow for user add moble in cart or more and calculate the final reset.",
         live:"",
         github:"https://github.com/moatazalaa14/E-commerce-Front-end",
         img:"/images/0804-06.jpg",
@@ -100,7 +105,7 @@ export const projectsInfo:Iprojects[]=[
     },
     {
         title:"My Portfolio",
-        desc:"IEEE Al-Azhar is a website that show blogs , services , events and informations about the team",
+        desc:"Portoflio is my website that show my information Skills,my experiences and personal data.it is created by usin Nextjs , Tailwind and Typescript",
         live:"https://www.ieee-azhar.com/",
         github:"https://github.com/moatazalaa14/Portfolio_",
         img:"/images/0804-06.jpg",
