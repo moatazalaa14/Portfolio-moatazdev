@@ -21,7 +21,7 @@ function Sidebar() {
 				<span className="text-green">Mu'taz </span>
 				Alaa
 			</h1>
-			<p className="py-1 my-3 bg-gray-200 rounded-full dark:bg-dark-200 px2">Front-end Developer</p>
+			<p className="py-1 my-3 bg-gray-200 rounded-full dark:bg-dark-200 px2">Learning Design Specialist</p>
 			<a href="/images/Moataz Alaa.pdf" className="flex items-center justify-center py-1 my-3 bg-gray-200 rounded-full dark:bg-dark-200 px2" download="Moataz_alaa">
 				
 				<GiTie className="w-6 h-6" /> Download Resume
