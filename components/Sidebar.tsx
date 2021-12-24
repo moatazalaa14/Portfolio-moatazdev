@@ -2,7 +2,8 @@ import React from 'react';
 import { AiFillGithub, AiFillLinkedin, AiFillFacebook } from 'react-icons/ai';
 import { GoLocation } from 'react-icons/go';
 import { GiTie } from 'react-icons/gi';
-import {useTheme} from "next-themes"
+import {useTheme} from "next-themes";
+
 function Sidebar() {
 	const {theme,setTheme} =useTheme()
 	const HandlingTheme=()=>{
@@ -10,8 +11,9 @@ function Sidebar() {
 	}
 	return (
 		<div>
+			
 			<img
-				src="https://scontent.fcai22-2.fna.fbcdn.net/v/t1.6435-9/116439488_736959370430431_7148258004202584247_n.jpg?_nc_cat=104&ccb=1-5&_nc_sid=174925&_nc_eui2=AeHi8mf_t_YK_t2Er615sCD2GA2gfeYZRhgYDaB95hlGGDw0V4XVRSiXOMZ0nKMlJaZgbFIBIf6QMB_3Z2hlunZ8&_nc_ohc=MhyZYKZEZwIAX_gBts7&_nc_ht=scontent.fcai22-2.fna&oh=00_AT-5379yYYQxOa8hby11oGtrvwert9NwTEsK-0w1pkwrGw&oe=61E99F45"
+				src="https://media-exp1.licdn.com/dms/image/C4D03AQGqFQtldRMVlA/profile-displayphoto-shrink_800_800/0/1636801570128?e=1645660800&v=beta&t=RabEJ5KjVYaleC8apdrvhgqQSAnq285pvLz-6sORhsw"
 				alt="user avater"
                 className="w-32 h-32 mx-auto rounded-full"
 			/>

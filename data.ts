@@ -6,34 +6,54 @@ import { Iservice, Iexperience, Iprojects } from './type';
 
 export const services:Iservice[]=[
     {
-        title:"Front-end development",
-        about:"Nulla minim quis aliqua do proident. Dolor commodo consequat officia cupidatat adipisicing quis nisi aliqua esse esse esse minim aliquip nisi.",
-        icon:RiComputerFill
+        title:"HTML",
+        skillLevel:90
+        
     },
     {
-        title:"Front-end development",
-        about:"Nulla minim quis aliqua do proident. Dolor commodo consequat officia cupidatat adipisicing quis nisi aliqua esse esse esse minim aliquip nisi.",
-        icon:RiComputerFill
+        title:"CSS",
+        skillLevel:80
+        
     },
     {
-        title:"Front-end development",
-        about:"Nulla minim quis aliqua do proident. Dolor commodo consequat officia cupidatat adipisicing quis nisi aliqua esse esse esse minim aliquip nisi.",
-        icon:RiComputerFill
+        title:"Javascript",
+        skillLevel:75
+        
     },
     {
-        title:"Front-end development",
-        about:"Nulla minim quis aliqua do proident. Dolor commodo consequat officia cupidatat adipisicing quis nisi aliqua esse esse esse minim aliquip nisi.",
-        icon:RiComputerFill
+        title:"Bootstrap",
+        skillLevel:50
+        
     },
     {
-        title:"Front-end development",
-        about:"Nulla minim quis aliqua do proident. Dolor commodo consequat officia cupidatat adipisicing quis nisi aliqua esse esse esse minim aliquip nisi.",
-        icon:RiComputerFill
+        title:"Tailwind",
+        skillLevel:70
+       
     },
     {
-        title:"Front-end development",
-        about:"Nulla minim quis aliqua do proident. Dolor commodo consequat officia cupidatat adipisicing quis nisi aliqua esse esse esse minim aliquip nisi.",
-        icon:RiComputerFill
+        title:"React",
+        skillLevel:80
+      
+    },
+    {
+        title:"Storybook",
+        skillLevel:70
+    },
+    {
+        title:"Jquery",
+        skillLevel:40
+    },
+    {
+        title:"Redux",
+        skillLevel:30
+    },
+    {
+        title:"Nextjs",
+        skillLevel:50
+    },
+    {
+        title:"Typescript",
+        skillLevel:40
     },
 ]
 

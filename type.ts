@@ -2,8 +2,7 @@ import { IconType } from "react-icons/lib";
 
 export interface Iservice{
     title:string,
-    about:string,
-    icon:IconType
+    skillLevel:Number
 }
 
 export interface Iexperience{
