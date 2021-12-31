@@ -21,7 +21,7 @@ function Sidebar() {
 				<span className="text-green">Mu'taz </span>
 				Alaa
 			</h1>
-			<p className="py-1 my-3 bg-gray-200 rounded-full dark:bg-dark-200 px2">Learning Design Specialist</p>
+			<p className="py-1 my-3 bg-gray-200 rounded-full dark:bg-dark-200 px2">Front-end Developer</p>
 			<a href="/images/Moataz Alaa.pdf" className="flex items-center justify-center py-1 my-3 bg-gray-200 rounded-full dark:bg-dark-200 px2" download="Moataz_alaa">
 				
 				<GiTie className="w-6 h-6" /> Download Resume
@@ -43,12 +43,12 @@ function Sidebar() {
 						<GoLocation />
 					</span>Egypt,Cairo
 				</p>
-				<a href="email:mutazalaasalah@gmail.com" className="inline-block my-2">mutazalaasalah@gmail.com</a><br/>
+				<a href="mailto:mutazalaasalah@gmail.com?subject=Mail from website" className="inline-block my-2">mutazalaasalah@gmail.com</a><br/>
 				<a href="tel:01128961278" className="inline-block my-2">+201128961278</a>
 			</div>
 			<div>
 				<button className="w-8/12 px-5 py-2 my-2 text-white rounded-full bg-gradient-to-r from-green to-blue-400 focus:outline-none" 
-                onClick={()=>window.open('emailto:mutazalaasalah@gmail.com')}
+                onClick={()=>window.open('mailto:mutazalaasalah@gmail.com')}
                 >Email Me</button>
 				<button className="w-8/12 px-5 py-2 my-2 text-white rounded-full bg-gradient-to-r from-green to-blue-400 focus:outline-none" onClick={HandlingTheme}>{/*theme==="light"?"Dark":"Light"*/}Theme Ui</button>
 			</div>

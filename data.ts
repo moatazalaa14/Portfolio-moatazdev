@@ -6,18 +6,6 @@ import { Iservice, Iexperience, Iprojects } from './type';
 
 export const services:Iservice[]=[
     {
-        title:"Storyline",
-        skillLevel:90
-    },
-    {
-        title:"Adobe Captivate",
-        skillLevel:70
-    },
-    {
-        title:"Adobe Illustrator",
-        skillLevel:60
-    },
-    {
         title:"HTML",
         skillLevel:90
         
@@ -103,6 +91,7 @@ export const experiences:Iexperience[]=[
 
 
 export const projectsInfo:Iprojects[]=[
+    
     {
         title:"Pickly",
         desc:"pickly.io is a platform where we can help each other making the right decisions.",
