@@ -1,10 +1,36 @@
 import {RiComputerFill} from "react-icons/ri"
-import { Iservice, Iexperience, Iprojects } from './type';
+import { Iservice, Iexperience, Iprojects,Iarticles } from './type';
 
 
-
+export const blogs:Iarticles[]=[
+    {
+        title:"Add Darkmode and Lightmode in your course [Articulate Storyline 360]",
+        img:"https://media-exp1.licdn.com/dms/image/C4D12AQGagBQOW1gbHw/article-cover_image-shrink_720_1280/0/1627212774595?e=1646870400&v=beta&t=OtjYbDD5gZxssjbiI3JEnbNwd7cTAyjBgl3GrxJ27Xs"
+    }
+]
 
 export const services:Iservice[]=[
+    {
+        title:"Articulate Storyline",
+        skillLevel:90
+    },
+    {
+        title:"Adobe Captivate",
+        skillLevel:60
+    },
+    {
+        title:"Storyboarding",
+        skillLevel:50
+    },
+    {
+        title:"Adobe Illustrator",
+        skillLevel:50
+    },
+    {
+        title:"Javascript",
+        skillLevel:75
+        
+    },
     {
         title:"HTML",
         skillLevel:90
@@ -13,11 +39,6 @@ export const services:Iservice[]=[
     {
         title:"CSS",
         skillLevel:80
-        
-    },
-    {
-        title:"Javascript",
-        skillLevel:75
         
     },
     {

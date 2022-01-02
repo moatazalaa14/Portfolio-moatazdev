@@ -21,4 +21,8 @@ export interface Iprojects{
     
 }
 
-export type Category= "React" | "Tailwind" | "Typescript" | "Bootstrap" |"Next.js" | "Storybook" | "Css Module"
+export interface Iarticles{
+    title:string,
+    img:string
+}
+export type Category= "React" | "Tailwind" | "Typescript" | "Bootstrap" |"Next.js" | "Storybook" | "Css Module" | "Storyline"

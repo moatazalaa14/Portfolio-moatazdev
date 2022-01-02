@@ -1,6 +1,8 @@
 import {useState} from "react"
 import ProjectCard from "../components/projectCard";
 import { projectsInfo } from '../data';
+import Head from 'next/head'
+
 function projects() {
     const [projectTech,setProjectTech]=useState(projectsInfo)
     const HandlingProjects=(tech:String)=>{
@@ -16,6 +18,9 @@ function projects() {
     
     return (
         <div className="px-5 py-2 " >
+            <Head>
+                <title>Projects</title>
+            </Head>
             <div className="p-4 " >
                 <div>
                     <button className="pr-2 focus:outline-none hover:text-green" onClick={()=>HandlingProjects("All")}>All</button>

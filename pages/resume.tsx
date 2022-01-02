@@ -1,9 +1,13 @@
 import { experiences } from '../data';
 import { motion } from 'framer-motion';
+import Head from 'next/head'
 
 function resume() {
     return (
         <div className="grid grid-cols-1 gap-6 p-4 lg:grid-cols-2 ">
+            <Head>
+                <title>Resume</title>
+            </Head>
             {
                 experiences.map(experience=>{
                     

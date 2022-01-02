@@ -1,10 +1,14 @@
 import { GetServerSideProps } from "next"
 import ServiceCard from "../components/ServiceCard"
 import { services } from "../data";
+import Head from 'next/head'
 
 const index = ({endPoint}) => {
   return (
     <div className="flex flex-col flex-grow">
+      <Head>
+        <title>About</title>
+      </Head>
       <p className="p-4 font-medium">
       I'm student at Specific Education, I am working as Learning design Specialist at Variiance. interested in Instructional design ,web development fields . I always seek to upgrade my skills and catch up with the accelerating rate of Education and technology development.      </p>
       <div className="flex-grow p-4 mt-5 bg-gray-400 dark:bg-dark-400" >
