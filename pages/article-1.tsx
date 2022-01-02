@@ -12,7 +12,7 @@ function singleArticle() {
            </Head>
            <h1 className="text-2xl"><strong>Add Darkmode and Lightmode in your course [Articulate Storyline 360]</strong></h1>
 <p><em>The applications as Facebook, Youtube, ...etc when you update any one of them you will find a dark mode feature because the large application try to make the user experiences more easily so they add this feature because of the huge demand for it from users.&nbsp;</em></p>
-<p><iframe width="640" height="360" src="https://www.youtube.com/embed/4oKRlHQr3Xc?&wmode=opaque&rel=0" frameBorder="0" ></iframe><br/></p>
+<p><iframe className=" w-full" height="360" src="https://www.youtube.com/embed/4oKRlHQr3Xc?&wmode=opaque&rel=0" frameBorder="0" ></iframe><br/></p>
 <p>A lot of users when they use any software, they tend to use dark mode because they see it very amazing and They are especially favored in cases where the user is in front of a screen for extended periods of time.</p>
 <p>So when I build an E-learning course in the storyline, I wanted to add some features as Dark mode to make the learner more comfortable when he learns this course.</p>
 <p>First, let&rsquo;s talk about Articulate storyline 360</p>
