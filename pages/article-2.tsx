@@ -16,7 +16,7 @@ function singleArticle() {
            <br />
            اكيد في , وهي شوية حاجات بناخد بالنا منها واحنا بنعمل ال E-learning courses  عشان نقدر نقول ان ال course  بتاعنا Accessible  طب يعني اية اصلا Accessibility   ال Accessibility   ان كل الناس تتعامل مع ال course  بتاعك بسهولة حتي الاشخاص الي عندهم Disabilities  .
            </p>
-           <iframe className=" w-full" height="360" src="https://www.youtube.com/embed/o2vDmDGlRz8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+           <iframe className=" w-full" height="360" src="https://www.youtube.com/embed/o2vDmDGlRz8" title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" ></iframe>
             <ul  className="list-disc mr-8">
                <h2 className="font-bold">انواع ال Disabilities  :-</h2>
                <li>حركية</li>
