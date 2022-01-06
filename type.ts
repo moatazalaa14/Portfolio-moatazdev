@@ -23,6 +23,7 @@ export interface Iprojects{
 
 export interface Iarticles{
     title:string,
-    img:string
+    img:string,
+    url:string
 }
 export type Category= "React" | "Tailwind" | "Typescript" | "Bootstrap" |"Next.js" | "Storybook" | "Css Module" | "Storyline"

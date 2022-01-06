@@ -6,20 +6,20 @@ import Head from 'next/head'
 function articles() {
     return(
 
-    <div className="flex justify-center lg:justify-start">
+    <div className="grid gap-8 grid-cols-1 md:grid-cols-2 justify-items-center  ">
         <Head>
             <title>Articles</title>
         </Head>
   { blogs.map(blog=>{
     
        return (
-           <div className="bg-gray-200 mb-2  grid grid-cols-1 rounded-xl shadow-3xl justify-items-center  dark:bg-dark-200 w-96 h-1/2 lg:ml-8">
+           <div className="bg-gray-200 mb-2   grid grid-cols-1 rounded-xl shadow-3xl justify-items-center  dark:bg-dark-200 w-80 h-1/2">
                
                    <div >
-                       <img className="w-64" src={blog.img} alt="" />
+                       <img className="h-64" src={blog.img} alt="" />
                    </div>
                    <div>
-                   <Link href={'/article-1'}>
+                   <Link href={blog.url}>
                        <h1 className="cursor-pointer text-center font-bold">{blog.title}</h1>
                    </Link>
                    </div>

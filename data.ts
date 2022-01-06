@@ -5,7 +5,13 @@ import { Iservice, Iexperience, Iprojects,Iarticles } from './type';
 export const blogs:Iarticles[]=[
     {
         title:"Add Darkmode and Lightmode in your course [Articulate Storyline 360]",
-        img:"https://media-exp1.licdn.com/dms/image/C4D12AQGagBQOW1gbHw/article-cover_image-shrink_720_1280/0/1627212774595?e=1646870400&v=beta&t=OtjYbDD5gZxssjbiI3JEnbNwd7cTAyjBgl3GrxJ27Xs"
+        img:"https://media-exp1.licdn.com/dms/image/C4D12AQGagBQOW1gbHw/article-cover_image-shrink_720_1280/0/1627212774595?e=1646870400&v=beta&t=OtjYbDD5gZxssjbiI3JEnbNwd7cTAyjBgl3GrxJ27Xs",
+        url:"/article-1"
+    },
+    {
+    title:"How to design an Accessible Course ? ",
+    img:"https://www.datocms-assets.com/7574/1538495467-illulead.svg",
+    url:"/article-2"
     }
 ]
 

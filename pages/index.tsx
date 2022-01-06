@@ -2,8 +2,9 @@ import { GetServerSideProps } from "next"
 import ServiceCard from "../components/ServiceCard"
 import { services } from "../data";
 import Head from 'next/head'
-
+import {motion} from "framer-motion"
 const index = ({endPoint}) => {
+
   return (
     <div className="flex flex-col flex-grow">
       <Head>
@@ -16,15 +17,27 @@ const index = ({endPoint}) => {
         <div className="grid items-center gap-6 lg:grid-cols-3  px-5 py-2" >
           {
             services.map((service,index)=>{
-           
+              // let bar:any=document.getElementsByClassName('kk').offsetWidth
+              // console.log(bar)
+              const variants={
+                initial:{
+                  width:"0%"
+                },
+                animate:{
+                  width:`${service.skillLevel}%` ,
+                  transition:{
+                    duration:0.7
+                  }
+                }
+              }
               return(
                 <div>
                 {/* <div className="bg-gray-200 rounded-lg dark:bg-dark-200 lg:col-span-1" key={index}> */}
                 {/* <ServiceCard service={service} /> */}
                 <p>{service.title}</p>
                 
-                <div className="w-full bg-gray-200 h-6 mb-6 rounded-full">
-                  <div className="text-white rounded-full bg-gradient-to-r from-green to-blue-400-600 h-6 focus:outline-none pl-4 pb-4" style={{width: `${service.skillLevel}%`}}>{service.skillLevel}%</div>
+                <div className="kk w-full bg-gray-200 h-6 mb-6 rounded-full">
+                  <motion.div   className="text-white rounded-full bg-gradient-to-r from-green to-blue-400-600 h-6 focus:outline-none pl-4 pb-4" style={{width: `${service.skillLevel}%`}} variants={variants} initial="initial" animate="animate" >{service.skillLevel}%</motion.div>
                 </div>
                 {/* </div> */}
                 </div>
