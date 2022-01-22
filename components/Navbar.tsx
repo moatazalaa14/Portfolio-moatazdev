@@ -12,7 +12,7 @@ const NavItem: FunctionComponent<{
     return activeItem !== name ? (
         <li onClick={()=>setActiveItem(name)}>
             <Link href={route}>
-                <a className="hover:text-green">
+                <a className="hover:text-green sm:text-lg">
                     {name}
                 </a>
             </Link>
@@ -36,7 +36,7 @@ function Navbar() {
                 <div className="font-bold border-b-4 text-green border-green md:text-2xl">
                     <li><Link href={pathname}><a>{activeItem}</a></Link></li>
                 </div>
-                <div className="flex space-x-5 text-lg">
+                <div className="flex space-x-5 text-lg sm:pl-2">
                     <NavItem name="About" route="/" activeItem={activeItem} setActiveItem={setActiveItem} />
                     <NavItem name="Projects" route="/projects" activeItem={activeItem} setActiveItem={setActiveItem}/>
                     <NavItem name="Resume" route="/resume" activeItem={activeItem} setActiveItem={setActiveItem}/>

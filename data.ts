@@ -17,22 +17,6 @@ export const blogs:Iarticles[]=[
 
 export const services:Iservice[]=[
     {
-        title:"Articulate Storyline",
-        skillLevel:90
-    },
-    {
-        title:"Adobe Captivate",
-        skillLevel:60
-    },
-    {
-        title:"Storyboarding",
-        skillLevel:50
-    },
-    {
-        title:"Adobe Illustrator",
-        skillLevel:50
-    },
-    {
         title:"Javascript",
         skillLevel:75
         
@@ -81,6 +65,22 @@ export const services:Iservice[]=[
     {
         title:"Typescript",
         skillLevel:40
+    },
+    {
+        title:"Articulate Storyline",
+        skillLevel:90
+    },
+    {
+        title:"Adobe Captivate",
+        skillLevel:60
+    },
+    {
+        title:"Storyboarding",
+        skillLevel:50
+    },
+    {
+        title:"Adobe Illustrator",
+        skillLevel:50
     },
 ]
 
