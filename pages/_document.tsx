@@ -16,6 +16,7 @@ class MyDocument extends Document {
         <body className="bg-gradient-to-r from-green to-blue-500 dark:bg-gradient-to-r dark:from-dark-300 dark:to-dark-400 dark:text-white">
           <Main />
           <NextScript />
+          
         </body>
       </Html>
     )

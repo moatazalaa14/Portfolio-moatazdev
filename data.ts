@@ -16,7 +16,22 @@ export const blogs:Iarticles[]=[
 ]
 
 export const services:Iservice[]=[
-   
+    {
+        title:"Articulate Storyline",
+        skillLevel:90
+    },
+    {
+        title:"Adobe Captivate",
+        skillLevel:60
+    },
+    {
+        title:"Storyboarding",
+        skillLevel:50
+    },
+    {
+        title:"Adobe Illustrator",
+        skillLevel:50
+    },
     {
         title:"Javascript",
         skillLevel:75
@@ -67,26 +82,16 @@ export const services:Iservice[]=[
         title:"Typescript",
         skillLevel:40
     },
-    {
-        title:"Articulate Storyline",
-        skillLevel:90
-    },
-    {
-        title:"Adobe Captivate",
-        skillLevel:60
-    },
-    {
-        title:"Storyboarding",
-        skillLevel:50
-    },
-    {
-        title:"Adobe Illustrator",
-        skillLevel:50
-    },
+   
 ]
 
 
 export const experiences:Iexperience[]=[
+    {
+        title:"Learning design Specialist",
+        organization:"Variiance",
+        responsiblities:["Set learning Objectives for the course" , "Review the script With SME and make sure the script met the learning objectives","Create Interactive as Simulation and games to improve the learning process","Courses Samples : SQL,Cloud computing , Database , Powershell and Web fundamentals"],
+    },
     {
         title:"Front-end developer",
         organization:"M3ntorship",
@@ -108,11 +113,7 @@ export const experiences:Iexperience[]=[
         responsiblities:["Trained with team to learn web technologies to be qualified for working in official website for team by using react"],
 
     },
-    {
-        title:"Learning design Specialist",
-        organization:"Variiance",
-        responsiblities:["Set learning Objectives for the course" , "Review the script With SME and make sure the script met the learning objectives","Create Interactive as Simulation and games to improve the learning process","Courses Samples : SQL,Cloud computing , Database , Powershell and Web fundamentals"],
-    },
+  
     
     
 
