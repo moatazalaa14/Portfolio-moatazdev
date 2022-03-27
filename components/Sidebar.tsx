@@ -3,7 +3,6 @@ import { AiFillGithub, AiFillLinkedin, AiFillFacebook } from 'react-icons/ai';
 import { GoLocation } from 'react-icons/go';
 import { GiTie } from 'react-icons/gi';
 import {useTheme} from "next-themes";
-
 function Sidebar() {
 	const {theme,setTheme} =useTheme()
 	const HandlingTheme=()=>{
@@ -13,7 +12,7 @@ function Sidebar() {
 		<div>
 			
 			<img
-				src="https://media-exp1.licdn.com/dms/image/C4D03AQGqFQtldRMVlA/profile-displayphoto-shrink_800_800/0/1636801570128?e=1645660800&v=beta&t=RabEJ5KjVYaleC8apdrvhgqQSAnq285pvLz-6sORhsw"
+				src="https://res.cloudinary.com/djnchdgnz/image/upload/v1648402781/1636801570128_qujdsc.jpg"
 				alt="user avater"
                 className="w-32 h-32 mx-auto rounded-full"
 			/>
