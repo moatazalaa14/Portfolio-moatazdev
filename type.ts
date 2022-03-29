@@ -26,4 +26,4 @@ export interface Iarticles{
     img:string,
     url:string
 }
-export type Category= "React" | "Tailwind" | "Typescript" | "Bootstrap" |"Next.js" | "Storybook" | "Css Module" | "Storyline"|"Video-based"|"create Simulation"|"Glossary"|"Storyboard"|"Review script"|"Working with SME"|"Upload on Platform"
+export type Category= "React" | "Tailwind" | "Typescript" | "Bootstrap" |"Next.js" | "Storybook" | "Css Module" | "Storyline"|"Video-based"|"create Simulation"|"Glossary"|"Storyboard"|"Review script"|"Working with SME"|"Upload on Platform"|"Captivate"|"Interactive-course"|"Illustrator"|"E-learning"

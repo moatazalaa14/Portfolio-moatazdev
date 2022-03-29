@@ -127,7 +127,7 @@ export const projectsInfo:Iprojects[]=[
         live:"https://vol.variiance.com/course/SQL-04363",
         github:"",
         img:"https://res.cloudinary.com/djnchdgnz/image/upload/v1648553479/Server-bro_icvd4q.png",
-                category:["Video-based","Storyboard","Review script","create Simulation","Glossary","Upload on Platform"]
+                category:["E-learning","Video-based","Storyboard","Review script","Captivate","create Simulation","Illustrator","Glossary","Upload on Platform"]
     },
     {
         title:"Powershell-Course",
@@ -135,7 +135,23 @@ export const projectsInfo:Iprojects[]=[
         live:"https://vol.variiance.com/course/Powershell%20Part.1-05498",
         github:"",
         img:"https://res.cloudinary.com/djnchdgnz/image/upload/v1648575203/Binary_code-rafiki_gdnfvi.png",
-                category:["Video-based","Storyboard","Review script","Upload on Platform"]
+                category:["E-learning","Video-based","Storyboard","Review script","Upload on Platform"]
+    },
+    {
+        title:"Interactive Problem Sloving course",
+        desc:"The course will provide the learner with the main concepts in problem-solving and help him to apply the concepts to solve real-problem.",
+        live:"https://360.articulate.com/review/content/1cf8dcb9-e5a3-4461-864f-948e13e9c067/review",
+        github:"",
+        img:"https://res.cloudinary.com/djnchdgnz/image/upload/v1648581956/Problem_solving-amico_1_cjl0hw.png",
+                category:["E-learning","Interactive-course","Storyboard","Storyline","Illustrator"]
+    },
+    {
+        title:"Darkmode and Lightmode in your course",
+        desc:"The applications as Facebook, Youtube, ...etc when you update any one of them you will find a dark mode feature because the large application try to make the user experiences more easily so they add this feature because of the huge demand for it from users. ",
+        live:"https://360.articulate.com/review/content/1cf8dcb9-e5a3-4461-864f-948e13e9c0",
+        github:"",
+        img:"https://res.cloudinary.com/djnchdgnz/image/upload/v1648577589/Dark_mode-amico_gqbp7p.png",
+                category:["E-learning","Interactive-course","Storyline","Illustrator"]
     },
     {
         title:"Cloud Computing-Course",
@@ -143,7 +159,7 @@ export const projectsInfo:Iprojects[]=[
         live:"https://vol.variiance.com/course/Introduction%20to%20Cloud%20Computing-04362",
         github:"",
         img:"https://res.cloudinary.com/djnchdgnz/image/upload/v1648553738/Cloud_hosting-amico_dby5n6.png",
-                category:["Video-based","Storyboard","Review script","Upload on Platform"]
+                category:["E-learning","Video-based","Storyboard","Review script","Upload on Platform"]
     },
     {
         title:"Database-Course",
@@ -151,7 +167,7 @@ export const projectsInfo:Iprojects[]=[
         live:"https://vol.variiance.com/course/Introduction%20to%20database%20management%20system%20-04500",
         github:"",
         img:"https://res.cloudinary.com/djnchdgnz/image/upload/v1648553966/Server_status-bro_nkyidi.png",
-                category:["Video-based","Storyboard","Review script","Upload on Platform"]
+                category:["E-learning","Video-based","Storyboard","Review script","Upload on Platform"]
     },
     
     {
