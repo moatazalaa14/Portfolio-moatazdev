@@ -5,7 +5,7 @@ import { Iservice, Iexperience, Iprojects,Iarticles } from './type';
 export const blogs:Iarticles[]=[
     {
         title:"Add Darkmode and Lightmode in your course [Articulate Storyline 360]",
-        img:"https://res.cloudinary.com/djnchdgnz/image/upload/v1648576075/Dark_mode-bro_s6rwbx.png",
+        img:"https://res.cloudinary.com/djnchdgnz/image/upload/v1648577589/Dark_mode-amico_gqbp7p.png",
         url:"/article-1"
     },
     {
@@ -26,7 +26,7 @@ export const services:Iservice[]=[
     },
     {
         title:"Storyboarding",
-        skillLevel:50
+        skillLevel:70
     },
     {
         title:"Adobe Illustrator",

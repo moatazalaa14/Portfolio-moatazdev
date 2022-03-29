@@ -12,9 +12,9 @@ function Sidebar() {
 		<div>
 			
 			<img
-				src="https://res.cloudinary.com/djnchdgnz/image/upload/v1648402781/1636801570128_qujdsc.jpg"
+				src="https://res.cloudinary.com/djnchdgnz/image/upload/v1648578128/1636801570128-removebg-preview_ffujxh.png"
 				alt="user avater"
-                className="w-32 h-32 mx-auto rounded-full"
+                className="w-32 h-32 mx-auto rounded-full bg-gray-400"
 			/>
 			<h1 className="my-4 text-3xl font-medium tracking-wider font-kau">
 				<span className="text-green">Mu'taz </span>

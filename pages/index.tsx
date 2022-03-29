@@ -11,7 +11,7 @@ const index = ({endPoint}) => {
         <title>About</title>
       </Head>
       <p className="p-4 font-medium">
-      I'm student at Specific Education, I am working as Learning design Specialist at Variiance. interested in Software Development ,<span className="text-green">Instructional design</span>.
+      I'm student at Specific Education,working as Learning design Specialist at Variiance. interested in Software Development ,<span className="text-green">Instructional design</span>.
 I always seek to upgrade my skills and catch up with the accelerating rate of Education and Software Development.       </p>
       <div className="flex-grow p-4 mt-5 bg-gray-400 dark:bg-dark-400" >
         <h2 className="mb-4 text-xl font-bold tracking-wide">My Skills</h2>
