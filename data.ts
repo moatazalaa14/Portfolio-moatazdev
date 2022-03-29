@@ -5,12 +5,12 @@ import { Iservice, Iexperience, Iprojects,Iarticles } from './type';
 export const blogs:Iarticles[]=[
     {
         title:"Add Darkmode and Lightmode in your course [Articulate Storyline 360]",
-        img:"https://media-exp1.licdn.com/dms/image/C4D12AQGagBQOW1gbHw/article-cover_image-shrink_720_1280/0/1627212774595?e=1646870400&v=beta&t=OtjYbDD5gZxssjbiI3JEnbNwd7cTAyjBgl3GrxJ27Xs",
+        img:"https://res.cloudinary.com/djnchdgnz/image/upload/v1648576075/Dark_mode-bro_s6rwbx.png",
         url:"/article-1"
     },
     {
     title:"How to design an Accessible Course ? ",
-    img:"https://www.datocms-assets.com/7574/1538495467-illulead.svg",
+    img:"https://res.cloudinary.com/djnchdgnz/image/upload/v1648576094/Day_of_people_with_disability-amico_wutfew.png",
     url:"/article-2"
     }
 ]
@@ -121,6 +121,38 @@ export const experiences:Iexperience[]=[
 
 
 export const projectsInfo:Iprojects[]=[
+    {
+        title:"SQL-Course",
+        desc:" “SQL” course is designed to help you managing data held in a relational database management system, or for stream processing in a relational data stream management system. You will also learn with a hands-on experience, the basic operations and commands that will help organize your data in the most efficient way.        ",
+        live:"https://vol.variiance.com/course/SQL-04363",
+        github:"",
+        img:"https://res.cloudinary.com/djnchdgnz/image/upload/v1648553479/Server-bro_icvd4q.png",
+                category:["Video-based","Storyboard","Review script","create Simulation","Glossary","Upload on Platform"]
+    },
+    {
+        title:"Powershell-Course",
+        desc:"This course provides students with the fundamental knowledge and skills to use PowerShell for administering and automating administration of Windows servers and more other products, even in the cloud.",
+        live:"https://vol.variiance.com/course/Powershell%20Part.1-05498",
+        github:"",
+        img:"https://res.cloudinary.com/djnchdgnz/image/upload/v1648575203/Binary_code-rafiki_gdnfvi.png",
+                category:["Video-based","Storyboard","Review script","Upload on Platform"]
+    },
+    {
+        title:"Cloud Computing-Course",
+        desc:" The “Introduction to cloud computing” course is designed to help you to know the core concepts of cloud computing.",
+        live:"https://vol.variiance.com/course/Introduction%20to%20Cloud%20Computing-04362",
+        github:"",
+        img:"https://res.cloudinary.com/djnchdgnz/image/upload/v1648553738/Cloud_hosting-amico_dby5n6.png",
+                category:["Video-based","Storyboard","Review script","Upload on Platform"]
+    },
+    {
+        title:"Database-Course",
+        desc:"“Introduction to database management system” course is designed to help you to know the core concepts of Database.",
+        live:"https://vol.variiance.com/course/Introduction%20to%20database%20management%20system%20-04500",
+        github:"",
+        img:"https://res.cloudinary.com/djnchdgnz/image/upload/v1648553966/Server_status-bro_nkyidi.png",
+                category:["Video-based","Storyboard","Review script","Upload on Platform"]
+    },
     
     {
         title:"Pickly",

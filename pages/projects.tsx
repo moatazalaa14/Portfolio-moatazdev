@@ -24,10 +24,8 @@ function projects() {
             <div className="p-4 " >
                 <div>
                     <button className="pr-2 focus:outline-none hover:text-green" onClick={()=>HandlingProjects("All")}>All</button>
-                    <button className="pr-2 focus:outline-none hover:text-green" onClick={()=>HandlingProjects("React")}>React</button>
-                    <button className="pr-2 focus:outline-none hover:text-green" onClick={()=>HandlingProjects("Tailwind")}>Tailwind</button>
-                    <button className="pr-2 focus:outline-none hover:text-green" onClick={()=>HandlingProjects("Bootstrap")}>Bootstrap</button>
-                    <button className="pr-2 focus:outline-none hover:text-green" onClick={()=>HandlingProjects("Typescript")}>Typescript</button>
+                    <button className="pr-2 focus:outline-none hover:text-green" onClick={()=>HandlingProjects("Video-based")}>Instructional Design</button>
+                    <button className="pr-2 focus:outline-none hover:text-green" onClick={()=>HandlingProjects("React")}>Web Development</button>
                 </div>
             </div>
         <div className="relative grid grid-cols-12 gap-4 my-3" >
