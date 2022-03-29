@@ -5,12 +5,12 @@ import { Iservice, Iexperience, Iprojects,Iarticles } from './type';
 export const blogs:Iarticles[]=[
     {
         title:"Add Darkmode and Lightmode in your course [Articulate Storyline 360]",
-        img:"https://res.cloudinary.com/djnchdgnz/image/upload/v1648577589/Dark_mode-amico_gqbp7p.png",
+        img:"https://res.cloudinary.com/djnchdgnz/image/upload/v1648580041/Dark_mode-amico_2_yjsnkc.png",
         url:"/article-1"
     },
     {
     title:"How to design an Accessible Course ? ",
-    img:"https://res.cloudinary.com/djnchdgnz/image/upload/v1648576094/Day_of_people_with_disability-amico_wutfew.png",
+    img:"https://res.cloudinary.com/djnchdgnz/image/upload/v1648580326/Day_of_people_with_disability-amico_1_fxv5hh.png",
     url:"/article-2"
     }
 ]
