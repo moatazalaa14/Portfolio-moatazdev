@@ -23,7 +23,7 @@ function projects() {
             </Head>
             <div className="p-4 " >
                 <div>
-                    <button className="pr-2 focus:outline-none hover:text-green" onClick={()=>HandlingProjects("All")}>All</button>
+                    <button className="pr-2 focus:outline-none hover:text-green " onClick={()=>HandlingProjects("All")}>All</button>
                     <button className="pr-2 focus:outline-none hover:text-green" onClick={()=>HandlingProjects("E-learning")}>Instructional Design</button>
                     <button className="pr-2 focus:outline-none hover:text-green" onClick={()=>HandlingProjects("React")}>Web Development</button>
                 </div>
