@@ -30,7 +30,7 @@ const ProjectCard: FunctionComponent<{ project: Iprojects }> = ({
             </div>
 
 			<Modal isOpen={modalIsOpen} onRequestClose={closeModal} contentLabel="Example Modal" style={customStyles}>
-				<div className="absolute top-0 left-0 z-10 grid items-center w-full h-full grid-cols-1 bg-gray-200 md:grid-cols-2 gap-x-12 dark:bg-dark-200 justify-items-center">
+				<div className="absolute top-0 left-0 z-10 grid items-center w-full  sm:h-screen md:h-full grid-cols-1 bg-gray-200 md:grid-cols-2 gap-x-12 dark:bg-dark-200 justify-items-center">
 					<div>
 						<img src={img} alt={title} className="cursor-pointer max-h-40 lg:max-h-80" />
 						<div className="flex justify-center mt-2 bg-gray-200 dark:bg-dark-200">
