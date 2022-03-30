@@ -36,7 +36,7 @@ function Navbar() {
                 <div className="font-bold border-b-4 text-green border-green md:text-2xl">
                     <li><Link href={pathname}><a>{activeItem}</a></Link></li>
                 </div>
-                <div className="flex space-x-5 text-lg sm:pl-2">
+                <div className="flex space-x-4 text-lg sm:pl-2 sm:text-sm ">
                     <NavItem name="About" route="/" activeItem={activeItem} setActiveItem={setActiveItem} />
                     <NavItem name="Projects" route="/projects" activeItem={activeItem} setActiveItem={setActiveItem}/>
                     <NavItem name="Resume" route="/resume" activeItem={activeItem} setActiveItem={setActiveItem}/>

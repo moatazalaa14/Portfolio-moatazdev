@@ -1,5 +1,6 @@
 import React from 'react';
-import { AiFillGithub, AiFillLinkedin, AiFillFacebook } from 'react-icons/ai';
+import { AiFillGithub, AiFillLinkedin, AiFillFacebook, AiFillBehanceCircle, AiFillBehanceSquare } from 'react-icons/ai';
+
 import { GoLocation } from 'react-icons/go';
 import { GiTie } from 'react-icons/gi';
 import {useTheme} from "next-themes";
@@ -35,6 +36,9 @@ function Sidebar() {
 				<a href="https://www.linkedin.com/in/mu-taz-alaa-4722a7183/" target="_blank">
 					<AiFillLinkedin className="w-8 h-8 cursor-pointer" color="#ff6363"/>
 				</a>
+				<a href="https://www.behance.net/mutazalaa" target="_blank">
+					<AiFillBehanceSquare className="w-8 h-8 cursor-pointer" color="#ff6363"/>
+				</a>
 			</div>
 			<div className="py-4 my-5 bg-gray-200 dark:bg-dark-200" style={{marginLeft:"-1rem",marginRight:"-1rem"}}>
 				<p className="flex items-center justify-center">
@@ -49,7 +53,7 @@ function Sidebar() {
 				<button className="w-8/12 px-5 py-2 my-2 text-white rounded-full bg-gradient-to-r from-green to-blue-400 focus:outline-none" 
                 onClick={()=>window.open('mailto:mutazalaasalah@gmail.com')}
                 >Email Me</button>
-				<button className="w-8/12 px-5 py-2 my-2 text-white rounded-full bg-gradient-to-r from-green to-blue-400 focus:outline-none" onClick={HandlingTheme}>{theme==="light"?"Go Dark":"Go Light"}</button>
+				<button className="w-8/12 px-5 py-2 my-2 text-white rounded-full bg-gradient-to-r from-green to-blue-400 focus:outline-none" onClick={HandlingTheme}>{theme==="light"?"Go Dark":"Go Light"}{}</button>
 			</div>
 		</div>
 	);
