@@ -26,4 +26,16 @@ export interface Iarticles{
     img:string,
     url:string
 }
+
+export interface Icourses{
+    playlistTitle:string,
+    playlistCover:string,
+    playlistUrl:string,
+    courses:Courses[]
+}
 export type Category= "React" | "Tailwind" | "Typescript" | "Bootstrap" |"Next.js" | "Storybook" | "Css Module" | "Storyline"|"Video-based"|"create Simulation"|"Glossary"|"Storyboard"|"Review script"|"Working with SME"|"Upload on Platform"|"Captivate"|"Interactive-course"|"Illustrator"|"E-learning"
+
+
+
+export type Courses= {id:Number,videoName:string,videoURL:string,courseCover:string}
+

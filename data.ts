@@ -1,5 +1,5 @@
 import {RiComputerFill} from "react-icons/ri"
-import { Iservice, Iexperience, Iprojects,Iarticles } from './type';
+import { Iservice, Iexperience, Iprojects,Iarticles ,Icourses } from './type';
 
 
 export const blogs:Iarticles[]=[
@@ -88,9 +88,14 @@ export const services:Iservice[]=[
 
 export const experiences:Iexperience[]=[
     {
+        title:"Instructional Designer",
+        organization:"Almentor.net",
+        responsiblities:["Created Learning paths for Technology tracks." , "Worked with subject matter experts to identify the target audience’s training needs.","Created instructional materials, such as instructor’s guide, participant’s guide, and handouts.","Courses Samples : Three.js , Gamification , IOT and AI for HR"],
+    },
+    {
         title:"Learning design Specialist",
         organization:"Variiance",
-        responsiblities:["Set learning Objectives for the course" , "Review the script With SME and make sure the script met the learning objectives","Create Interactive as Simulation and games to improve the learning process","Courses Samples : SQL,Cloud computing , Database , Powershell and Web fundamentals"],
+        responsiblities:["Set learning Objectives for the course" , "Review the script With SME and make sure the script met the learning objectives","Create Interactive as Simulation and games to improve the learning process","Courses Samples : SQL , Cloud computing , Database , Powershell and Web fundamentals"],
     },
     {
         title:"Front-end developer",
@@ -211,3 +216,36 @@ export const projectsInfo:Iprojects[]=[
                 category:["Next.js","Typescript" ,"Tailwind"]
     },
 ]
+
+
+
+export const playlists:Icourses[]=[
+    {
+    playlistTitle:"Storyline Challenges Course",
+    playlistCover:"https://res.cloudinary.com/djnchdgnz/image/upload/v1648581956/Problem_solving-amico_1_cjl0hw.png",
+    playlistUrl:"/course-1",
+    courses:[
+        {
+            id:1,
+            videoName:"hello",
+            videoURL:"hello",
+            courseCover:"https://res.cloudinary.com/djnchdgnz/image/upload/v1648581956/Problem_solving-amico_1_cjl0hw.png"
+        }
+    ]
+},
+{
+    playlistTitle:"Stay Tuned!",
+    playlistCover:"https://res.cloudinary.com/djnchdgnz/image/upload/v1663441030/Writing_room-bro_qbklin.png",
+    playlistUrl:"/courses",
+    courses:[
+        {
+            id:1,
+            videoName:"hello",
+            videoURL:"hello",
+            courseCover:"https://res.cloudinary.com/djnchdgnz/image/upload/v1663441030/Writing_room-bro_qbklin.png"
+        }
+    ]
+}
+]
+
+//AIzaSyA_DxDLmnOnTA3hCXQExyMh4mx71Q4dDJo
