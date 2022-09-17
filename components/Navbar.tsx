@@ -33,10 +33,10 @@ function Navbar() {
     return (
         <nav>
             <ul className="flex items-center justify-between px-5 py-3 my-3">
-                <div className="font-bold border-b-4 text-green border-green md:text-2xl">
-                    <li><Link href={pathname}><a>{activeItem}</a></Link></li>
+                <div className="font-bold border-b-4 text-green border-green md:text-2xl sm:text-xs">
+                    <li><Link href={pathname}><a>{activeItem}|</a></Link></li>
                 </div>
-                <div className="flex space-x-4 text-lg sm:pl-2 sm:text-sm ">
+                <div className="flex space-x-4 md:text-lg sm:pl-px  text-xs">
                     <NavItem name="About" route="/" activeItem={activeItem} setActiveItem={setActiveItem} />
                     <NavItem name="Projects" route="/projects" activeItem={activeItem} setActiveItem={setActiveItem}/>
                     <NavItem name="Resume" route="/resume" activeItem={activeItem} setActiveItem={setActiveItem}/>
