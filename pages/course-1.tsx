@@ -6,7 +6,7 @@ import Head from 'next/head'
 import {useState} from "react"
 
 function singleCourse({youtubeData}) {
-    const [videoId,setVideoID]=useState("hjEhl8Ec7sU")
+    const [videoId,setVideoID]=useState(youtubeData.items[0].snippet.resourceId.videoId)
 
     console.log(youtubeData.items)
     const responsive = {
