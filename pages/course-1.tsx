@@ -7,7 +7,7 @@ import {useState} from "react"
 
 function singleCourse({youtubeData}) {
     const [videoId,setVideoID]=useState(youtubeData.items[0].snippet.resourceId.videoId)
-
+    const [vidSta,setVidSta]=useState(false)
     console.log(youtubeData.items)
     const responsive = {
         superLargeDesktop: {
@@ -41,11 +41,14 @@ function singleCourse({youtubeData}) {
             <div>
                 <div className="px-5 py-2">
                     <ul>
-                    <Carousel responsive={responsive}   centerMode={false} infinite={true} arrows={true}  >
+                    <Carousel  responsive={responsive} arrows={true}  centerMode={false} infinite={false} >
                     {
                         youtubeData.items.map((item,index)=>{
                             return(
-                                <li onClick={()=>setId(item.snippet.resourceId.videoId)} className="pt-4 focus:outline-none hover:text-green cursor-pointer active:bg-blue-600 bg-gray-200  dark:bg-dark-200 mb-2 m-4 rounded-xl shadow-3xl  w-3/4	text-center h-16" key={index}>{index} : {item.snippet.title}</li>
+                              <div className="flex justify-center">
+                               
+                                   <li onClick={()=>{setId(item.snippet.resourceId.videoId) }} className="pt-4 focus:outline-none hover:text-green cursor-pointer active:bg-blue-600 bg-gray-200  dark:bg-dark-200 mb-2 m-4 rounded-xl shadow-3xl  w-3/4	text-center h-16" key={index}>{index} : {item.snippet.title}<span className="pl-4 text-2xl font-bold text-green-500 hidden">✓</span></li>
+                              </div>
                             )
                         })
                     }
@@ -66,6 +69,7 @@ function singleCourse({youtubeData}) {
          </div>
     )
 }
+
 export const getServerSideProps=async (context:GetServerSideProps)=>{
    
    
