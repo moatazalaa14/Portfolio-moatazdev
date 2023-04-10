@@ -18,7 +18,7 @@ function Sidebar() {
                 className="w-32 h-32 mx-auto rounded-full bg-gray-400"
 			/>
 			<h1 className="my-4 text-3xl font-medium tracking-wider font-kau">
-				<span className="text-green">Mu'taz </span>
+				<span className="text-green">Moataz </span>
 				Alaa
 			</h1>
 			<p className="py-1 my-3 bg-gray-200 rounded-full dark:bg-dark-200 px2">Instructional Designer</p>

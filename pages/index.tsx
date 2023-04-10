@@ -16,7 +16,7 @@ const index = (props) => {
         <title>About</title>
       </Head>
       <p className="p-4 font-medium">
-      I am working as an <span className='text-red-600 font-bold'>Instructional Designer</span> at Almentor.net. interested in Instructional design and software development fields.
+      Moataz Alaa is working as an <span className='text-red-600 font-bold'>Instructional Designer</span> at Almentor.net. interested in Instructional design and software development fields.
 I always seek to upgrade my skills and catch up with the accelerating rate of Education and Software Development.
 I believe in long-life learning and sharing knowledge. so every time I learn something new or overcome a challenge
 using Adobe captivate or storyline, I record videos to share what I have learned. here is <a className='text-blue-900 text-bold' href="https://www.youtube.com/channel/UCNMt4n7DoBJboTn4OGwDJuQ">my YouTube channel link</a>
