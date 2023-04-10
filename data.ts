@@ -34,10 +34,20 @@ export const projectPages:IprojectPages[]=[
         url:"/chatbot_course_3"
     },
     {
+        title:"PowerShell Video-based Course →",
+        demo:"ui1XlRxYR8E",
+        url:"/powershell_course_4"
+    },
+    {
         title:"Projectile-Game →",
         demo:"W3LRYau8qoM",
-        url:"/projectile_game_4"
-    }
+        url:"/projectile_game_5"
+    },
+    {
+        title:"Web Fundmentals Video-based Course →",
+        demo:"JEk9Cf93okM",
+        url:"/webfundmenals_course_6"
+    },
 ]
 
 export const services:Iservice[]=[

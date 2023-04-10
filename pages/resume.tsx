@@ -7,7 +7,7 @@ function resume() {
     
     return (
 
-        <div className="grid grid-cols-1 gap-6 p-4 lg:grid-cols-2 ">
+        <div className="grid grid-cols-1 gap-6 p-4 lg:grid-cols-2 h-screen overflow-scroll">
             <NextSeo
       title="Moataz Alaa | Instructional Design and E-learning Development Experience"
       description=" This page showcases Moataz's experience as an instructional designer and e-learning developer. With a background in creating effective and engaging learning experiences, Moataz has worked for various organizations, including Almentor.net, Cloud Security Alliance, and Variiance. This page provides details on Moataz's responsibilities and achievements in each role, including creating learning paths, developing interactive educational content, and evaluating the process to ensure timely completion of courses. Explore this page to learn more about Moataz's skills and expertise in instructional design and e-learning development. Contact Moataz for inquiries or collaborations on your next learning project."

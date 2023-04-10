@@ -19,7 +19,7 @@ function projects() {
       };
     
     return (
-        <div className="px-5 py-2 overflow-scroll grid gap-8 grid-cols-1 md:grid-cols-2" >
+        <div className="px-5 py-2 overflow-scroll grid gap-8 grid-cols-1 md:grid-cols-2 h-screen" >
             <Head>
                 <title>Projects</title>
             </Head>
