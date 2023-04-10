@@ -10,6 +10,18 @@ function MyApp({ Component, pageProps }) {
      <NextSeo
       title="Moataz Alaa  | Instructional Designe Portfolio"
       description="Welcome to the instructional design portfolio of Moataz Alaa, a professional with extensive experience in designing and developing effective learning experiences. This website showcases a collection of projects that demonstrate Moataz's ability to create engaging, interactive, and impactful instructional materials, such as e-learning courses, training programs, and educational resources. Explore the portfolio to learn more about Moataz's instructional design skills and expertise. Contact Moataz for inquiries or collaborations on your next learning project."
+      openGraph={{
+        type: 'website',
+        images: [
+          {
+            url: 'https://res.cloudinary.com/djnchdgnz/image/upload/v1648579130/1636801570128-removebg-preview-removebg-preview_rxwncq.png',
+            width: 800,
+            height: 600,
+            alt: 'Moataz-alaa',
+          },
+          
+        ],
+      }}
     />
       <div className="col-span-12 p-4 text-center bg-white dark:bg-dark-300 lg:col-span-3 rounded-2xl">
         <Sidebar/>
