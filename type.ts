@@ -20,7 +20,11 @@ export interface Iprojects{
         category:Category[]
     
 }
-
+export interface IprojectPages{
+    title:string,
+    demo:string,
+    url:string
+}
 export interface Iarticles{
     title:string,
     img:string,

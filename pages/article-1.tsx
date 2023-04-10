@@ -1,12 +1,17 @@
 
 import Link from "next/link"
 import Head from 'next/head'
+import { NextSeo } from 'next-seo';
 
 function singleArticle() {
    
     return (
         
         <div className="grid grid-cols-1 gap-6 p-4 overflow-scroll h-screen">
+            <NextSeo
+      title="Articulate Storyline 360 Tutorial | Adding Dark Mode and Light Mode to Your Course"
+      description="This page provides a step-by-step tutorial on how to add dark mode and light mode functionality to your Articulate Storyline 360 course. With the option to switch between dark and light modes, learners can customize their learning experience and improve their engagement with the content. The tutorial includes detailed instructions and screenshots to guide you through the process of adding this feature to your course. Follow this tutorial to enhance your e-learning courses and provide a personalized learning experience to your audience."
+    />
            <Head>
                <title>Add Darkmode and Lightmode in your course</title>
            </Head>

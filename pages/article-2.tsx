@@ -1,12 +1,17 @@
 
 import Link from "next/link"
 import Head from 'next/head'
+import { NextSeo } from 'next-seo';
 
 function singleArticle() {
    
     return (
         
         <div className="grid grid-cols-1 mt-4 gap-6 p-4 overflow-scroll h-screen" dir="rtl">
+             <NextSeo
+      title="Creating Accessible Courses | Tips and Techniques for Designing an Accessible Course"
+      description="This page provides tips and techniques for designing an accessible course that meets the needs of learners with disabilities. By making your course accessible, you can ensure that all learners can access and engage with the content. This page offers practical advice on how to create accessible course materials, including considerations for visual and auditory impairments, motor disabilities, and cognitive disabilities. Follow these tips to design an inclusive and engaging e-learning course that caters to diverse learners."
+    />
             <Head>
                 <title>How to design an Accessible Course ?</title>
             </Head>
