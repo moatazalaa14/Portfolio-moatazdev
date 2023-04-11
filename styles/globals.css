@@ -15,3 +15,7 @@ div::-webkit-scrollbar {
     border-radius: 50px;
     outline: rgba(0, 0, 0, 0.3);
   }
+
+.dddd {
+  color: '#F5F5F5'
+}

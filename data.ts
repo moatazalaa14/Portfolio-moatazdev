@@ -126,12 +126,16 @@ export const experiences:Iexperience[]=[
     {
         title:"Instructional Designer",
         organization:"Almentor.net",
-        responsiblities:["Created Learning paths for Technology tracks." , "Worked with subject matter experts to identify the target audience’s training needs.","Created instructional materials, such as instructor’s guide, participant’s guide, and handouts.","Courses Samples : Three.js , Gamification , IOT and AI for HR"],
+        responsiblities:["Worked with subject matter experts to identify the target audience’s training needs." , "Collaborated with subject matter experts to identify the training needs of the target audience.","Developed instructional materials, including instructor's guides, participant guides, and handouts."],
+        date:"April 2022 - present",
+        src:"https://res.cloudinary.com/djnchdgnz/image/upload/v1681249559/image_3_pw7vwa.png"
     },
     {
         title:"E-learning developer",
         organization:"Cloud Security Alliance [United States]",
         responsiblities:["Create interactive educational content using Articulate Storyline." ,"Assist in the development of instructional strategies, course materials, assessment techniques, appropriate integration of instructional technologies, and best practices.","Review the final course output and provide constructive feedback."],
+        date:"November 2022 - present",
+        src:"https://res.cloudinary.com/djnchdgnz/image/upload/v1681250567/image_j3eiw9.webp"
     },
     {
         title:"E-learning Developer",
@@ -142,11 +146,15 @@ export const experiences:Iexperience[]=[
          "Evaluate the process to ensure that the course is completed within the determined timeframe.",
          "Integrate JavaScript libraries with Storyline."
         ],
+        date:"April 2022 - December 2022",
+        src:"https://res.cloudinary.com/djnchdgnz/image/upload/v1681249355/image_2_gdu27u.png"
     },
     {
         title:"Learning design Specialist",
         organization:"Variiance",
         responsiblities:["Set learning Objectives for the course" , "Review the script With SME and make sure the script met the learning objectives","Create Interactive as Simulation and games to improve the learning process","Courses Samples : SQL , Cloud computing , Database , Powershell and Web fundamentals"],
+        date:"May 2021 - May 2022",
+        src:"https://res.cloudinary.com/djnchdgnz/image/upload/v1681249355/image_2_gdu27u.png"
     },
   
 ]

@@ -8,7 +8,9 @@ export interface Iservice{
 export interface Iexperience{
     title:string,
     organization:string,
-    responsiblities:Array<string>
+    responsiblities:Array<string>,
+    date:string,
+    src:string
 }
 
 export interface Iprojects{

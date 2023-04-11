@@ -27,7 +27,7 @@ function Navbar() {
     const [activeItem, setActiveItem] = useState("")
     const {pathname} =useRouter()
     useEffect(() => {
-        pathname==="/"?setActiveItem("About"):pathname==="/projects"?setActiveItem("Projects"):pathname==="/resume" ?setActiveItem("Resume"):pathname==="/courses"||"/courses-1" ?setActiveItem("Courses"):setActiveItem("Articles")
+        pathname==="/"?setActiveItem("About"):pathname==="/projects"?setActiveItem("Projects"):pathname==="/experiences" ?setActiveItem("Experiences"):pathname==="/courses"||"/courses-1" ?setActiveItem("Courses"):setActiveItem("Articles")
         
     }, [])
     return (
@@ -39,7 +39,7 @@ function Navbar() {
                 <div className="flex space-x-4 md:text-lg sm:pl-px  text-xs">
                     <NavItem name="About" route="/" activeItem={activeItem} setActiveItem={setActiveItem} />
                     <NavItem name="Projects" route="/projects" activeItem={activeItem} setActiveItem={setActiveItem}/>
-                    <NavItem name="Resume" route="/resume" activeItem={activeItem} setActiveItem={setActiveItem}/>
+                    <NavItem name="Experiences" route="/experiences" activeItem={activeItem} setActiveItem={setActiveItem}/>
                     <NavItem name="Articles" route="/articles" activeItem={activeItem} setActiveItem={setActiveItem}/>
                     <NavItem name="Courses" route="/courses" activeItem={activeItem} setActiveItem={setActiveItem}/>
 
