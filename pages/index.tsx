@@ -15,16 +15,15 @@ const index = (props) => {
       <Head>
         <title>About</title>
       </Head>
-      <p className="p-4 font-medium">
-      Moataz Alaa is working as an <span className='text-red-600 font-bold'>Instructional Designer</span> at Almentor.net. interested in Instructional design and software development fields.
-I always seek to upgrade my skills and catch up with the accelerating rate of Education and Software Development.
-I believe in long-life learning and sharing knowledge. so every time I learn something new or overcome a challenge
-using Adobe captivate or storyline, I record videos to share what I have learned. here is <a className='text-blue-900 text-bold' href="https://www.youtube.com/channel/UCNMt4n7DoBJboTn4OGwDJuQ">my YouTube channel link</a>
 
+      <p className="p-4 font-medium">
+      I am a <span className="text-green">Learning Experience Designer</span>. With over 50 courses under my belt, I have a wealth of experience in designing interactive courses, video-based training, and Instructor-Led Training (ILT) programs. I am currently working as an Instructional Designer at Almentor.net, where I am responsible for designing and developing engaging and effective eLearning courses for various clients.<br/>
+     
+      I am a dedicated and results-driven professional who is passionate about leveraging technology to enhance learning experiences. I am committed to staying <span className="text-green">up-to-date</span> with the latest trends and technologies in both the Education and Software Development fields, and I am always looking for new challenges and opportunities to grow my skills and expertise.
 </p>
       <div className="flex-grow p-4 mt-5 bg-gray-400 dark:bg-dark-400" >
         <h2 className="mb-4 text-xl font-bold tracking-wide">My Achievements</h2>
-        <div className="grid items-center gap-6 lg:grid-cols-3  px-5 py-2 justify-center h-full" >
+        <div className="grid items-center gap-6 lg:grid-cols-3  px-5 py-2 justify-center h-full mb-40" >
           {/* {
             services.map((service,index)=>{
              
@@ -53,7 +52,7 @@ using Adobe captivate or storyline, I record videos to share what I have learned
             })
           } */}
   
-          <div className='font-bold text-5xl grid grid-cols-1 text-center w-full justify-center '>
+          <div className='font-bold text-5xl grid grid-cols-1 text-center w-full justify-center'>
           <CountDownVideoComponent />
           <h2 className="text-2xl">Video-Based Courses</h2>
           </div>

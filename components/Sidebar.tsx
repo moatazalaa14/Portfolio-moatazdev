@@ -1,10 +1,13 @@
 import React from 'react';
 import { AiFillGithub, AiFillLinkedin, AiFillFacebook, AiFillBehanceCircle, AiFillBehanceSquare } from 'react-icons/ai';
+import {useState} from "react"
+import Link from "next/link"
 
 import { GoLocation } from 'react-icons/go';
 import { GiTie } from 'react-icons/gi';
 import {useTheme} from "next-themes";
 function Sidebar() {
+	const [isOpened,setIsOpened]=useState(false)
 	const {theme,setTheme} =useTheme()
 	const HandlingTheme=()=>{
 		theme==="light"?setTheme("dark"):setTheme("light")
@@ -12,6 +15,9 @@ function Sidebar() {
 	const HandlingThemeDark=()=>{
 		theme==="light"?setTheme("dark"):null
 	}
+	const openMeeting=()=>[
+		isOpened===false?setIsOpened(true):setIsOpened(false)
+	]
 	HandlingThemeDark()
 	return (
 		<div>
@@ -54,10 +60,12 @@ function Sidebar() {
 				<a href="tel:01128961278" className="inline-block my-2">+201128961278</a>
 			</div>
 			<div>
-				<button className="w-8/12 px-5 py-2 my-2 text-white rounded-full bg-gradient-to-r from-green to-black-400 hover:bg-black hover:border-green focus:outline-none" 
+				<button className="w-5/6 px-2 py-2 my-2 text-white rounded-full bg-gradient-to-r from-green to-black-400 focus:outline-none" 
                 onClick={()=>window.open('mailto:mutazalaasalah@gmail.com')}
                 >Email Me</button>
-				<button className="w-8/12 px-5 py-2 my-2 text-white rounded-full bg-gradient-to-r from-green to-black-400 focus:outline-none" onClick={HandlingTheme}>{theme==="light"?"Go Dark":"Go Light"}{}</button>
+				<a target="_blank" href="https://calendly.com/moatazalaa" rel="noopener noreferrer">
+				<button className="	 w-5/6 px-2 py-2 my-2 text-white rounded-full bg-gradient-to-r from-green to-black-400 focus:outline-none">Schedule meeting</button>
+			</a>
 			</div>
 		</div>
 	);
