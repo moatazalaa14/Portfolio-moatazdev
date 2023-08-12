@@ -79,7 +79,7 @@ export const CountDownVideoComponent : React.FC=()=>{
   return (
     <CountUp
   start={1}
-  end={20}
+  end={30}
   duration={1.5}
   separator=" "
   decimals={0}
@@ -90,7 +90,7 @@ export const CountDownInteractiveComponent : React.FC=()=>{
   return (
     <CountUp
   start={1}
-  end={25}
+  end={40}
   duration={2}
   separator=" "
   decimals={0}
