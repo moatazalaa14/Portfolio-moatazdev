@@ -23,7 +23,7 @@ function Sidebar() {
 		<div>
 			
 			<img
-				src="https://res.cloudinary.com/djnchdgnz/image/upload/v1648579130/1636801570128-removebg-preview-removebg-preview_rxwncq.png"
+				src="https://res.cloudinary.com/djnchdgnz/image/upload/v1691879519/vukzqfevbfbjkjktnrz0.png"
 				alt="Moataz-alaa"
                 className="w-32 h-32 mx-auto rounded-full bg-gray-400"
 			/>

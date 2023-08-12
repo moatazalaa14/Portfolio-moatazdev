@@ -4,20 +4,40 @@ import { Iservice, Iexperience, Iprojects,Iarticles ,Icourses ,IprojectPages} fr
 
 export const blogs:Iarticles[]=[
     {
+        title:"Enhancing Your Portfolio with Interactive Work Samples",
+        img:"https://res.cloudinary.com/djnchdgnz/image/upload/v1691867747/dm8zdcogh2k4cacpzcly.png",
+        url:"/article-3"
+    },
+    {
         title:"Add Darkmode and Lightmode in your course [Articulate Storyline 360]",
         img:"https://res.cloudinary.com/djnchdgnz/image/upload/v1648580041/Dark_mode-amico_2_yjsnkc.png",
         url:"/article-1"
     },
-    {
-    title:"How to design an Accessible Course ? ",
-    img:"https://res.cloudinary.com/djnchdgnz/image/upload/v1648580326/Day_of_people_with_disability-amico_1_fxv5hh.png",
-    url:"/article-2"
-    }
+    // {
+    // title:"How to design an Accessible Course ? ",
+    // img:"https://res.cloudinary.com/djnchdgnz/image/upload/v1648580326/Day_of_people_with_disability-amico_1_fxv5hh.png",
+    // url:"/article-2"
+    // }
 ]
 
 
 
 export const projectPages:IprojectPages[]=[
+    {
+        title:"Part 3: 🚀 Integrating AI to Transform Content into Concise Slides! 😀 →",
+        demo:"HU3ysk9EOqI",
+        url:"/ai-automate-process-3"
+    },
+    {
+        title:"Part.2: 🚀 Integrate AI to generate questions based on learning objectives! 😀 →",
+        demo:"Mzb--kLVyCU",
+        url:"/ai-automate-process-2"
+    },
+    {
+        title:"Part.1: 🚀 Integrate AI to evaluate learning objectives! 😀 →",
+        demo:"c-vgr1yB2CY",
+        url:"/ai-automate-process-1"
+    },
     {
         title:"Part of My Gamified Course →",
         demo:"Tnta2lkqgAk",

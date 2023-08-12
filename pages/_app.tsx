@@ -6,7 +6,7 @@ import { NextSeo } from 'next-seo';
 import {ThemeProvider} from "next-themes"
 function MyApp({ Component, pageProps }) {
   
-  return <ThemeProvider attribute="class"><div className="grid grid-cols-12 gap-6 px-5 my-14 lg:px-48 sm:px-20 md:px-32">
+  return <ThemeProvider attribute="class"><div className="grid grid-cols-12 gap-6 px-2 my-2 lg:px-48 sm:px-20 md:px-32">
      <NextSeo
       title="Moataz Alaa  | Instructional Designer Portfolio"
       description="Welcome to the instructional design portfolio of Moataz Alaa, a professional with extensive experience in designing and developing effective learning experiences. This website showcases a collection of projects that demonstrate Moataz's ability to create engaging, interactive, and impactful instructional materials, such as e-learning courses, training programs, and educational resources. Explore the portfolio to learn more about Moataz's instructional design skills and expertise. Contact Moataz for inquiries or collaborations on your next learning project."
