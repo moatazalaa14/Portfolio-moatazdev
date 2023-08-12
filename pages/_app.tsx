@@ -14,10 +14,10 @@ function MyApp({ Component, pageProps }) {
         type: 'website',
         images: [
           {
-            url: 'https://res.cloudinary.com/djnchdgnz/image/upload/v1648579130/1636801570128-removebg-preview-removebg-preview_rxwncq.png',
+            url: 'https://res.cloudinary.com/djnchdgnz/image/upload/v1691879519/vukzqfevbfbjkjktnrz0.png',
             width: 800,
             height: 600,
-            alt: 'Moataz-alaa',
+            alt: 'Moataz Alaa',
           },
           
         ],
